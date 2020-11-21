@@ -119,9 +119,9 @@ class CloneHelper:
             LOGGER.info(tam.decode('utf-8'))
             
             if _drive == "folderba":
-                gautii = f"https://drive.google.com/folderview?id={gautam}"
+                gautii = f"https://drive.google.com/folderview?id={kmac}"
             else:
-                gautii = f"https://drive.google.com/file/d/{gautam}/view?usp=drivesdk"
+                gautii = f"https://drive.google.com/file/d/{kmac}/view?usp=drivesdk"
                 
             LOGGER.info(gautii)
             gau_link = re.search("(?P<url>https?://[^\s]+)", gautii).group("url")
